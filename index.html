@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Jimmy's Diner</h2>
+            <p>The best burgers and pizzas in town</p>
+        </header>
+        <section class="items">
+            
+        </section>
+        <div class="your-order-container">
+            <h4>Your Order</h4>
+            <div class="checkout"></div>
+            <div class="total">
+                <h4>Total Price</h4>
+            </div>
+        </div>
+     
+        <dialog id="modal" class="modal">
+            <h4>Enter card details</h4>
+            <form method="dialog">
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+                <input type="number" id="card-number" name="card-number" placeholder="Enter card number">
+                <input type="number" id="cvv" name="cvv" placeholder="Enter CVV">
+                <button type="submit" class="modal-pay-button complete-order-btn">Pay</button>
+                <button type="button" class="close-modal">X</button>
+            </form>
+        </dialog>
+    </div>
+    
+    <script src="index.js" type="module"></script>
+</body>
+</html>
+
+
